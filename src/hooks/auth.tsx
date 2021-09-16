@@ -92,5 +92,4 @@ const AuthProvider: React.FC = ({ children }) => {
 
   return context;
 }
-// eslint-disable-next-line import/no-anonymous-default-export
 export { AuthProvider, useAuth };
