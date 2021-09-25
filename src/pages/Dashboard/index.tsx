@@ -5,7 +5,7 @@ import DayPicker, { DayModifiers } from 'react-day-picker';
 import 'react-day-picker/lib/style.css'
 
 import { Container, Header, HeaderContent, Profile, Content, Schedule, NextAppointment, Section, Appointment, Calendar } from './styles';
-import logoImg from '../../assets/logo.svg'
+// import logoImg from '../../assets/logo.svg'
 import { FiClock, FiPower } from 'react-icons/fi';
 import { useAuth } from '../../hooks/auth';
 import { useState } from 'react';
@@ -128,7 +128,8 @@ const Dashboard: React.FC = () => {
     <Container>
       <Header>
         <HeaderContent>
-          <img src={logoImg} alt="GoBarber" />
+          <h1>Logomarca</h1>
+          {/* <img src={logoImg} alt="GoBarber" /> */}
 
           <Profile>
             <img
